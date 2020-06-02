@@ -15,7 +15,7 @@ import com.yelo.core.Entity.Pais;
 import com.yelo.core.service.PaisService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://angelantoniolopez.github.io/front-paises/")
 public class PaisController {
 	@Autowired
 	PaisService paisService;
